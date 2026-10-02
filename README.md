@@ -1,49 +1,21 @@
-# Restaurant Table Booking and Food Pre-Ordering System
+# MyProject_RESTAURANT_TABLE_BOOKING
 
 ## Overview
 
-This project is a software engineering project for a restaurant table booking and food pre-ordering system.
+This repository contains the documentation, architecture work, requirements, project-management evidence, and development-related artifacts for the **Restaurant Table Booking & Pre-Ordering App**.
 
-The system covers table availability, table selection, reservations, restaurant menu browsing, food pre-ordering, and selected restaurant operational activities.
+The project is organized so that each major software engineering activity is stored in a separate folder. The repository can be used to review the project requirements, architecture, Jira/Scrum work, SRS and work breakdown documentation, and GitHub Copilot development evidence.
 
-This repository contains the project documentation and evidence for requirements engineering, architecture, Scrum/Jira activities, work breakdown, GitHub repository setup, and GitHub Copilot development.
+## Project Areas
 
-## Project Objectives
-
-- Check table availability based on date, time, and party size.
-- Allow users to select an available table.
-- Make and manage restaurant table reservations.
-- Allow users to browse the restaurant menu.
-- Allow users to place food pre-orders.
-- Link food pre-orders with reservations.
-- Manage relevant restaurant operational information.
-- Apply software engineering practices throughout the project.
-
-## Main Functional Areas
-
-### Table Reservation Management
-
-- Select available table
-- Check table availability
-- Make table reservation
-- View reservation details
-- Modify reservation
-
-### Food Pre-Ordering
-
-- Browse restaurant menu
-- Place food pre-order
-- Link pre-order to reservation
-
-### Restaurant Operations
-
-- Manage real-time table status
-- Calculate kitchen preparation time
+- **Restaurant Table Booking** – Supports the process of viewing table availability and making restaurant table reservations.
+- **Food Pre-Ordering** – Covers browsing the restaurant menu and placing food pre-orders.
+- **Restaurant Operations** – Covers supporting operational activities related to reservations and food preparation.
 
 ## Repository Structure
 
 ```text
-MyProject_-RESTAURANT_TABLE_BOOKING/
+MyProject_RESTAURANT_TABLE_BOOKING/
 │
 ├── Architectural Diagram/
 │   ├── 2-Architectural_Diagram.docx
@@ -72,70 +44,80 @@ MyProject_-RESTAURANT_TABLE_BOOKING/
 └── README.md
 ```
 
-## Documentation
+## Architecture
 
-### Requirements Engineering
+The architecture work contains the redesigned UML component diagram and supporting documentation.
 
-The `RE` folder contains:
+The architecture uses a **layered architecture** with the following major layers:
+
+### Presentation Layer
+- Kiosk UI Component
+
+### Business Logic Layer
+- Order Manager Component
+- Payment Service Component
+- Receipt Printer Component
+
+### Data Layer
+- Menu Database Component
+
+The component diagram also documents the interfaces and connections between these components.
+
+## Requirements Engineering
+
+The `RE` folder contains the requirements engineering documentation, including the project's:
 
 - Functional Requirements (FR)
 - Non-Functional Requirements (NFR)
 - Requirements Traceability Matrix (RTM)
 
-### Architectural Diagram
+## Project Creation and Jira/Scrum
 
-The `Architectural Diagram` folder contains the system architecture documentation and architectural diagram.
+The `Project Creation` folder contains evidence related to the creation and management of the project.
 
-### Project Creation and Scrum
+The Jira documentation includes evidence of:
 
-The `Project Creation` folder contains evidence related to project setup.
+- Epics
+- User stories
+- Sprint planning
+- Story points
+- Subtasks
+- Sprint progress
+- Completed and pending work items
 
-The `github` folder contains screenshots of the GitHub repository, architecture/folder structure, and repository organization.
+The project includes work related to table reservation, food pre-ordering, and restaurant operations.
 
-The `jira` folder contains Scrum and Jira evidence.
+## SRS and Work Breakdown
 
-### SRS and Work Breakdown
+The `SRS_Work_Breakdown` folder contains the Software Requirements Specification and work breakdown documentation used to organize the project work.
 
-The `SRS_Work_Breakdown` folder contains the Software Requirements Specification and work breakdown documentation.
+## GitHub Copilot
 
-### GitHub Copilot
+The `GitHub_Copilot` folder contains evidence of development using GitHub Copilot, including screenshots and generated-code evidence where applicable.
 
-The `GitHub_Copilot` folder contains evidence related to development using GitHub Copilot.
+## GitHub Repository
 
-## Scrum Work
+The repository is maintained using Git and GitHub. Project documents are organized into folders so that each assignment/activity can be located independently.
 
-The project was organized using Scrum concepts and Jira work items.
+The GitHub project structure also contains evidence showing the repository organization and project creation process.
 
-The work items cover:
+## Tools Used
 
-- Selecting available tables
-- Checking table availability
-- Making table reservations
-- Browsing the restaurant menu
-- Placing food pre-orders
-- Viewing reservation details
-- Modifying reservations
-- Linking pre-orders with reservations
-- Managing real-time table status
-- Calculating kitchen preparation time
+- GitHub
+- Git
+- Jira / Scrum project management
+- Visual Studio Code
+- GitHub Copilot
+- Microsoft Word
+- UML component diagrams
 
-Subtasks were used to divide individual work items into smaller development activities.
+## Project Documentation
 
-## Development Workflow
+The repository is intended to keep the project documentation together in one place:
 
-1. Define project requirements.
-2. Identify functional and non-functional requirements.
-3. Prepare the requirements traceability information.
-4. Create the system architectural diagram.
-5. Prepare the SRS and work breakdown.
-6. Create and organize Scrum/Jira work items.
-7. Create and organize the GitHub repository.
-8. Use GitHub Copilot where required for development.
-9. Maintain the required project evidence and documentation.
-
-## Project Information
-
-Project: Restaurant Table Booking and Food Pre-Ordering System
-
-Repository: MyProject_-RESTAURANT_TABLE_BOOKING
+1. Requirements Engineering
+2. Architectural Design
+3. Project Creation and Jira/Scrum Evidence
+4. SRS and Work Breakdown
+5. GitHub Copilot Development Evidence
 
